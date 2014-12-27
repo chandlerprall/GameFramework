@@ -1,0 +1,32 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #90beea;
+    overflow: hidden;
+}
+
+h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+}
+
+.screen {
+    height: 100%;
+}
+
+.centered {
+    display: inline-block;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+
+// Screens
+@import "screens/menu";
+@import "screens/loading";
+@import "screens/game";
+
+// Components
+@import "components/progressbar";

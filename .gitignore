@@ -1,0 +1,5 @@
+.idea
+node-webkit-v0.11.1-win-ia32
+gameframework.exe.lnk
+.module-cache/*
+templates/.module-cache

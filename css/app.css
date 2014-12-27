@@ -1,0 +1,62 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #90beea;
+  overflow: hidden;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+.screen {
+  height: 100%;
+}
+.centered {
+  display: inline-block;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+}
+#menu-screen {
+  height: 100%;
+}
+#menu-screen * {
+  text-align: center;
+}
+#menu-screen h1 {
+  padding-top: 3px;
+  text-align: center;
+  font-size: 45px;
+  line-height: 44px;
+}
+#menu-screen nav {
+  margin-top: 20px;
+}
+#menu-screen nav button {
+  margin-right: 7px;
+}
+#menu-screen nav button:last-child {
+  margin-right: 0;
+}
+#loading-screen {
+  height: 100%;
+}
+#loading-screen * {
+  text-align: center;
+}
+nav {
+  position: absolute;
+}
+.component-progressbar {
+  height: 20px;
+}
+.component-progressbar > div {
+  height: 100%;
+  background-color: blue;
+}

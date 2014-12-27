@@ -1,0 +1,14 @@
+{
+	"main": "index.html",
+	"name": "Game Framework",
+	"version": "0.0.1",
+
+	"user-agent": "%name %ver; %osinfo",
+
+	"window": {
+		"title": "Game Framework",
+		//"icon": "icon.png",
+		"position": "center",
+		"fullscreen": true
+	}
+}

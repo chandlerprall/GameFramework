@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Game Framework</title>
+	<link rel="stylesheet" type="text/css" href="css/app.css"/>
+	<script type="text/javascript" src="lib/react.js"></script>
+	<script type="text/javascript" src="lib/require.js"></script>
+	<script type="text/javascript" src="lib/three.js"></script>
+	<script type="text/javascript" src="lib/goblin.js"></script>
+</head>
+
+<body>
+	<script type="text/javascript">
+		req(
+			[ 'templates/app' ],
+			function( App ) {
+				React.render(
+					React.createElement( App ),
+					document.body
+				);
+			}
+		);
+	</script>
+</body>
+
+</html>
